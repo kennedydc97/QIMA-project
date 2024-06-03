@@ -1,58 +1,30 @@
-Product Management Application
-Overview
+# Product Management Application
+
+## Overview
+
 This is a product management application built with Spring Boot and Angular. It provides functionality to manage products, including creating, reading, updating, and deleting products. The application features user authentication and authorization using Spring Security and JWT tokens. It supports role-based access control to restrict certain actions to admin users only.
 
-Technologies Used
-Backend: Spring Boot, Spring Security, JWT, H2 Database
-Frontend: Angular, Angular Material
-Others: Maven, Java, TypeScript
-Features
-User authentication and authorization
-Role-based access control
-Product management (CRUD operations)
-Angular Material for a responsive UI
-Sample data loaded on application startup
-Prerequisites
-JDK 11 or later
-Node.js and npm
-Angular CLI
-Maven
-Getting Started
-Backend
-Clone the repository:
+## Technologies Used
 
-sh
-Copy code
-git clone <repository-url>
-cd <repository-directory>
-Build the application:
+- **Backend:** Spring Boot, Spring Security, JWT, H2 Database
+- **Frontend:** Angular, Angular Material
+- **Others:** Maven, Java, TypeScript
 
-sh
-Copy code
-mvn clean install
-Run the application:
+## Features
 
-sh
-Copy code
-mvn spring-boot:run
-Frontend
-Navigate to the frontend directory:
+- User authentication and authorization
+- Role-based access control
+- Product management (CRUD operations)
+- Angular Material for a responsive UI
+- Sample data loaded on application startup
 
-sh
-Copy code
-cd frontend
-Install dependencies:
+## Prerequisites
 
-sh
-Copy code
-npm install
-Run the application:
+- JDK 11 or later
+- Node.js and npm
+- Angular CLI
+- Maven
 
-sh
-Copy code
-ng serve
-Access the application:
-Open your browser and navigate to http://localhost:4200.
 
 Data Initialization
 The application loads initial data including users, roles, categories, and products through the DataLoader class. This helps to get started with some pre-defined data.
