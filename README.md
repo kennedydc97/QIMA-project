@@ -36,6 +36,8 @@ User: user/user
 Product Management:
 Admin can add, edit, and delete products.
 User can view products.
+
+
 TODO List
  Change the H2 Database to MySQL:
 Update the application to use MySQL for production environments.
