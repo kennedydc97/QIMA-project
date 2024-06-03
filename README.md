@@ -38,24 +38,24 @@ Admin can add, edit, and delete products.
 User can view products.
 
 
-TODO List
- Change the H2 Database to MySQL:
-Update the application to use MySQL for production environments.
+## TODO List
+-Change the H2 Database to MySQL:
+-Update the application to use MySQL for production environments.
 
- Running Only in Development Mode:
-Ensure the application is optimized for development. Consider adding profiles for development and production.
+-Running Only in Development Mode:
+-Ensure the application is optimized for development. Consider adding profiles for development and production.
 
- Error Handling:
-Add comprehensive error handling for all server endpoints to improve robustness.
+-Error Handling:
+-Add comprehensive error handling for all server endpoints to improve robustness.
 
- Dockerize the Application:
-Create Docker configurations to launch the backend and frontend together with a single command.
+-Dockerize the Application:
+-Create Docker configurations to launch the backend and frontend together with a single command.
 
- Improve Layout:
-Enhance the UI/UX design of the application to make it more user-friendly and visually appealing.
+-Improve Layout:
+-Enhance the UI/UX design of the application to make it more user-friendly and visually appealing.
 
- Develop Unit Tests:
-Implement unit tests for both the backend and frontend to ensure code quality and reliability.
+-Develop Unit Tests:
+-Implement unit tests for both the backend and frontend to ensure code quality and reliability.
 
- Use Lombok:
-Integrate Lombok into the backend to reduce boilerplate code and improve code readability.
+-Use Lombok:
+-Integrate Lombok into the backend to reduce boilerplate code and improve code readability.
