@@ -1,0 +1,31 @@
+<h1 mat-dialog-title>{{action}} Product</h1>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput [(ngModel)]="productData.name">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Description</mat-label>
+    <input matInput [(ngModel)]="productData.description">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Price</mat-label>
+    <input matInput type="number" [(ngModel)]="productData.price">
+  </mat-form-field>
+  
+  <mat-label class="category-label">Category Details</mat-label>
+  <mat-form-field appearance="fill">
+    <mat-label>ID</mat-label>
+    <input matInput [(ngModel)]="productData.categoryId" name="categoryId">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Description</mat-label>
+    <input matInput [(ngModel)]="productData.categoryDescription" name="categoryDescription">
+  </mat-form-field>
+  
+  <mat-checkbox [(ngModel)]="productData.available">Available</mat-checkbox>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="doAction()">{{action}}</button>
+  <button mat-button (click)="closeDialog()">Cancel</button>
+</div>

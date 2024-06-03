@@ -1,0 +1,15 @@
+<div class="login-container">
+  <h2>Login</h2>
+  <form (submit)="login()">
+    <div>
+      <label for="username">Username</label>
+      <input matInput type="text" id="username" [(ngModel)]="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input matInput type="password" id="password" [(ngModel)]="password" name="password" required>
+    </div>
+    <button mat-raised-button color="primary" type="submit">Login</button>
+  </form>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</div>
